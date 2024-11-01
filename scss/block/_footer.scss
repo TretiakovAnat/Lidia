@@ -1,0 +1,45 @@
+.footer {
+}
+.footer__conteiner {
+  max-width: 100%;
+  padding: 0;
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.footer__element {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  gap: 50px;
+}
+.footer__title {
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+}
+.footer__logo {
+}
+.footer__link {
+  margin-top: 10px;
+  color: var(--primary);
+}
+.footer__socials {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.footer__copy {
+  margin-top: 90px;
+
+  background-color: var(--primary);
+  width: 100%;
+}
+.footer__copys {
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}

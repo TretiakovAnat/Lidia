@@ -1,0 +1,35 @@
+.hero {
+}
+.hero__conteiner {
+  display: flex;
+}
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.hero__title {
+  font-size: 77px;
+  line-height: 1.2;
+  padding: 0;
+  width: 620px;
+  letter-spacing: -4%;
+}
+
+.hero__text {
+  text-align: left;
+  max-width: 500px;
+  line-height: 1.87;
+}
+.hero__button {
+}
+
+.hero__foto {
+  z-index: 2;
+}
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
